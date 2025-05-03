@@ -1,8 +1,8 @@
 const express = require('express');
-const connectDB = require('./config/db');
+const connectDB = require('./db');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const userRoutes = require('./routes/userRoutes');
+const userRoutes = require('./userRoutes');
 require('dotenv').config();
 
 const app = express();
